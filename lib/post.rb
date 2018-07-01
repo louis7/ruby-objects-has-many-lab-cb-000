@@ -21,3 +21,7 @@ def author_name
   else
     return @author.name
 end
+end
+
+
+end
