@@ -16,7 +16,7 @@ def artist_name
     if @artist == nil
       return nil
     else
-      return @artist
+      return @artist.name
 end
 end
 
