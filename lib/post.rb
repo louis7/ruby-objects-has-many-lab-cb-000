@@ -19,5 +19,5 @@ def author_name
   if @author == nil
     return nil
   else
-    return @author
+    return @author.name
 end
