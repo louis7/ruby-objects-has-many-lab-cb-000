@@ -24,7 +24,10 @@ end
 
 
 
-def add_song_by_name()
+def add_song_by_name(song_name)
+  song = Song.new(song_name)
+  @songs << song
+  song.artist = self
 end
 
 
